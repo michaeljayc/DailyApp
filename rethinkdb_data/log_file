@@ -1,0 +1,20 @@
+2022-03-25T14:34:50.568268351 0.015938s notice: Recursively removing directory /home/dna-dev/Documents/DailyApp/daily-app/rethinkdb_data/tmp
+2022-03-25T14:34:50.570969570 0.018641s notice: Initializing directory /home/dna-dev/Documents/DailyApp/daily-app/rethinkdb_data
+2022-03-25T14:34:50.571064320 0.018734s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/dna-dev/Documents/DailyApp/daily-app/rethinkdb_data' did not already exist or is empty.)
+2022-03-25T14:34:50.571090884 0.018760s notice: Running rethinkdb 2.4.1~0focal (CLANG 10.0.0 )...
+2022-03-25T14:34:50.572169082 0.019839s notice: Running on Linux 5.16.11-76051611-generic x86_64
+2022-03-25T14:34:50.572237006 0.019906s notice: Loading data from directory /home/dna-dev/Documents/DailyApp/daily-app/rethinkdb_data
+2022-03-25T14:34:50.585763420 0.033433s info: Automatically using cache size of 7378 MB
+2022-03-25T14:34:50.586077149 0.033746s notice: Listening for intracluster connections on port 29015
+2022-03-25T14:34:50.586718692 0.034388s notice: Listening for client driver connections on port 28015
+2022-03-25T14:34:50.586755695 0.034425s notice: Listening for administrative HTTP connections on port 8080
+2022-03-25T14:34:50.586757519 0.034427s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-03-25T14:34:50.586758986 0.034428s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-03-25T14:34:50.586763080 0.034432s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-03-25T14:34:50.586767182 0.034436s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-03-25T14:34:50.586770610 0.034440s notice: Server ready, "mcaballero_wws" 7ea5bcd8-f0aa-46a0-9f11-b2a379280af8
+2022-03-25T15:00:36.029643459 1545.477313s notice: Server got SIGTERM from pid 32858, uid 0; shutting down...
+2022-03-25T15:00:36.029751512 1545.477421s notice: Shutting down client connections...
+2022-03-25T15:00:36.029961966 1545.477631s notice: All client connections closed.
+2022-03-25T15:00:36.029968734 1545.477638s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-03-25T15:00:36.030223298 1545.477893s notice: Storage engine shut down.
